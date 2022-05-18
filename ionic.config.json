@@ -1,0 +1,7 @@
+{
+  "name": "werathonframes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

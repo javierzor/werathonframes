@@ -1,0 +1,15 @@
+background-overlay {
+    background-image: url(https://werathon.com/wp-content/uploads/2022/02/shape-gradienta1.png);
+    opacity: 0.5;
+}
+
+.background-image{
+    // --background: 
+
+    background-image: url(https://werathon.com/wp-content/uploads/2022/02/shape-gradienta1.png) 0 0/100% 100% no-repeat;
+
+
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(242,41,91,1) 0%, rgba(37,114,255,1) 86%);
+
+}
