@@ -1,0 +1,33 @@
+<ion-content>
+
+<ion-card>
+
+
+
+  <ion-text *ngIf="info_de_la_fase_actual" style="font-family: Poppins; color:black; font-size: x-large; font-weight: 700;">
+
+  Launchpad Phase<a *ngFor="let fase of respuestadewerathonobtenertablafase"><a *ngIf="fase.estafase=='1'" style="color:black;">{{info_de_la_fase_actual.numero}}</a></a> esta en vivo.<br>
+  Precio de ${{precio_wera_usd| number : '1.2-2'}} USD por 1 WERA.<br>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col  style="text-align: left;" >
+        {{limiteinicialfaseusd}}$
+      </ion-col>
+      <ion-col style="text-align:right;">
+       <ion-text  style="text-align:right;" > {{info_de_la_fase_actual.limitefaseusd}}$</ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+  ${{saldo_de_app}} USD Recaudados total<br>
+  Precio por WERA en la Fase 2 será de ${{precio_wera_usd+0.01| number : '1.2-2'}}
+
+</ion-text>
+
+</ion-card>
+
+</ion-content>
+

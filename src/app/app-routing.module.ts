@@ -15,6 +15,14 @@ const routes: Routes = [
     path: 'frame2',
     loadChildren: () => import('./frame2/frame2.module').then( m => m.Frame2PageModule)
   },
+  {
+    path: 'frame3',
+    loadChildren: () => import('./frame3/frame3.module').then( m => m.Frame3PageModule)
+  },
+  {
+    path: 'frame4',
+    loadChildren: () => import('./frame4/frame4.module').then( m => m.Frame4PageModule)
+  },
 ];
 
 @NgModule({
